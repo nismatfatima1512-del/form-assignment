@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Me</title>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <a href="#about">About me</a> <br>
+            <a href="#contact">Contacts</a>
+        </nav>
+        <hr>
+        <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 10px 2px;">
+            All About Me
+        </h1>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+            <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 10px 2px;">About Me</h3>
+            <p>Hi! I’m a student who enjoys learning new things, exploring technology, and trying out different ideas. I’m still discovering what I’m good at and what I want to do in the future, so I like keeping myself curious and learning along the way.</p>
+        </section>
+
+        <!-- Image Section -->
+        <section id="all">
+            <img src="all about me.jpeg" alt="All About Me" style="height: 400px; margin: 30px 2px;">
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 10px 2px;">Contact Me</h3>
+            
+            <form action="#" method="POST">
+                
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="reason">Reason for Contact:</label>
+                    <select id="reason" name="reason" required>
+                        <option value="">-- Please choose an option --</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="collaboration">Project Collaboration</option>
+                    </select>
+                </div>
+                <br>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <br>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <p>&copy; 2026 All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
